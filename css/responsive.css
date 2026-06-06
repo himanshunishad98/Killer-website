@@ -1,0 +1,328 @@
+/* ════════════════════════════════════════
+   RESPONSIVE LAYOUT BREAKPOINTS
+   ════════════════════════════════════════ */
+
+@media (max-width: 1024px) {
+  .skills-grid-8 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .instructor-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-inner {
+    grid-template-columns: 1fr 1fr;
+  }
+  .resources-row {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .school-hero-inner {
+    grid-template-columns: 1fr !important;
+    text-align: center;
+    gap: 2rem !important;
+  }
+  .school-hero-content {
+    max-width: 100% !important;
+  }
+  .school-grid-3 {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .school-timeline-inner {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+  .school-timeline-content {
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .pain-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .outcomes-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .testimonials-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .why-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .metrics-inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 900px) {
+  /* Mobile Header Layout */
+  .nav-phone {
+    display: none !important;
+  }
+  .nav-hamburger {
+    display: flex !important;
+  }
+  .nav-links {
+    position: absolute;
+    top: 68px;
+    left: 0;
+    right: 0;
+    background: var(--white);
+    border-bottom: 1px solid var(--slate-200);
+    box-shadow: var(--shadow-md);
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 0.5rem;
+    align-items: stretch;
+    display: none;
+    z-index: 1000;
+  }
+  .nav-links.open {
+    display: flex;
+  }
+  .nav-links a {
+    padding: 0.75rem 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+  }
+  .nav-cta {
+    padding: 0.45rem 0.9rem !important;
+    font-size: 0.8rem !important;
+    text-align: center;
+  }
+  
+  /* Subpages Hero Stack */
+  .hero {
+    padding-top: 6rem;
+    padding-bottom: 3.5rem;
+  }
+  .hero h1 {
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+  }
+  .hero__subtitle {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  .hero__ctas {
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .hero__ctas a, .hero__ctas button {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+
+  /* Grid layout fallbacks */
+  .offer-grid, .steps-track, .trust-grid, .magnets-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+  .final-cta__buttons, .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    max-width: 320px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .final-cta__buttons a, .cta-buttons a {
+    width: 100% !important;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+}
+
+
+@media (max-width: 640px) {
+  section {
+    padding: 3.5rem 1rem;
+  }
+  .hero-section {
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+  }
+  .hero-inner {
+    padding: 0 1rem;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+  .instructor-grid {
+    grid-template-columns: 1fr;
+  }
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+  .skills-grid-8 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .compare-table {
+    font-size: 0.8rem;
+  }
+  .compare-table td, .compare-table th {
+    padding: 0.6rem 0.75rem;
+  }
+  .footer-inner {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .metrics-inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .wa-float {
+    display: none !important;
+  }
+  .school-grid-3 {
+    grid-template-columns: 1fr !important;
+  }
+  .articles-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .resources-row {
+    grid-template-columns: 1fr !important;
+  }
+  
+  /* Mobile padding and sizing fixes */
+  .container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  .offer-card, .step-card, .trust-card, .magnet-card {
+    padding: 1.5rem !important;
+  }
+  
+  /* ── Outcomes: before-after stacks vertically ── */
+  .before-after {
+    grid-template-columns: 1fr;
+    margin-bottom: 1.5rem;
+  }
+  .ba-before {
+    border-right: none;
+    border-bottom: 1px solid var(--slate-200);
+  }
+  .ba-col {
+    padding: 1rem;
+  }
+
+  /* ── Outcomes: items tighten up ── */
+  .outcome-item {
+    padding: 0.85rem 1rem;
+    gap: 0.75rem;
+  }
+
+  /* ── Cert preview: remove sticky (broken in single-col flow) ── */
+  .cert-preview {
+    position: static;
+    padding: 1.75rem 1.25rem;
+  }
+
+  /* ── Cert CTA button: allow text to wrap so it never blows out ── */
+  #cert-cta {
+    white-space: normal;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  /* ── Cert lines and badge ── */
+  .cert-line {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.8rem;
+  }
+  .guarantee-badge {
+    padding: 0.75rem 0.85rem;
+    gap: 0.6rem;
+  }
+}
+
+/* ══════════════════════════════════════════════
+   EXTRA-SMALL PHONES  (320px – 480px)
+   ══════════════════════════════════════════════ */
+@media (max-width: 480px) {
+  /* Outcomes grid: tighten section padding */
+  #outcomes.section-alt {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  /* Heading scale down for very small screens */
+  #outcomes-heading {
+    font-size: clamp(1.35rem, 6vw, 1.75rem);
+  }
+
+  /* Outcome items: smaller number badge + tighter text */
+  .outcome-item .oi-num {
+    width: 28px;
+    height: 28px;
+    font-size: 0.75rem;
+    flex-shrink: 0;
+  }
+  .outcome-item h4 {
+    font-size: 0.85rem;
+  }
+  .outcome-item p {
+    font-size: 0.78rem;
+  }
+
+  /* Before-after: compact column padding */
+  .ba-col {
+    padding: 0.85rem 0.9rem;
+  }
+  .ba-list li {
+    font-size: 0.78rem;
+  }
+
+  /* Cert preview: further reduce padding */
+  .cert-preview {
+    padding: 1.5rem 1rem;
+    border-radius: var(--radius-lg);
+  }
+  .cert-preview .cert-icon {
+    font-size: 2.25rem;
+    margin-bottom: 0.75rem;
+  }
+  .cert-preview h3 {
+    font-size: 1.05rem;
+  }
+  .cert-includes {
+    gap: 0.45rem;
+  }
+  .cert-line {
+    font-size: 0.75rem;
+    padding: 0.45rem 0.65rem;
+  }
+  .guarantee-badge {
+    flex-direction: column;
+    text-align: center;
+    padding: 0.85rem;
+    gap: 0.4rem;
+  }
+  .guarantee-badge .gb-icon {
+    font-size: 1.25rem;
+  }
+}

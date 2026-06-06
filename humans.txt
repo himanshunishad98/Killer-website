@@ -1,0 +1,56 @@
+/* TEAM */
+Organization: SkillNest Digital Education
+Contact: +91-74705-54811
+WhatsApp: https://wa.me/917470554811
+Location: India
+Website: https://skillnest.qzz.io
+
+Mentor: Amit Sharma
+Role: Senior Digital Skills Mentor
+Expertise: Computer Skills, Digital Literacy, MS Office, Google Workspace
+Experience: 8+ years teaching middle school students
+
+Educator: Priya Verma
+Role: AI & Computational Thinking Educator
+Expertise: AI Literacy, Computational Thinking, CBSE 2026-27 Alignment
+Specialization: Class 6-8 age-appropriate AI education
+
+Educator: Deepa Krishnan
+Role: Cyber Safety & Internet Safety Educator
+Expertise: Digital Citizenship, Online Safety, Cyber Ethics
+Focus: Children aged 11-14
+
+/* THANKS */
+To the parents, students, and educators across India who trust SkillNest
+to prepare their children for an AI-powered future.
+
+To every Class 6, 7, and 8 student who showed up curious, worked hard,
+and left with skills that will last a lifetime.
+
+To the families in every corner of India who believe that the future
+belongs to those who are prepared — and chose SkillNest to help get there.
+
+/* SITE */
+Last update: 2026-06-05
+Language: English (India)
+Doctype: HTML5
+IDE: Built with care for Indian families
+Standards: Schema.org structured data, WCAG 2.1 accessibility, Open Graph
+Components: Vanilla HTML, CSS, JavaScript — no frameworks
+Typography: Poppins (headings) + DM Sans (body) via Google Fonts
+Color System: SkillNest Design System — Blue #1E40AF, Orange #F97316, Green #16A34A
+Hosting: India-optimized CDN
+Performance: Core Web Vitals optimized, mobile-first responsive design
+Accessibility: Skip navigation, ARIA labels, reduced-motion support
+
+/* MISSION */
+Preparing every Indian child for an AI-powered future.
+One skill at a time.
+
+SkillNest exists because the world is changing faster than school curriculums can keep up.
+We bridge that gap — giving children aged 11-14 the AI literacy, coding foundations,
+digital tools, and cyber safety knowledge they need to thrive in Class 9 and beyond.
+
+/* PROGRAM */
+6 Weeks | 30+ Live Hours | 6 Real Projects | 1 Digital Certificate
+CBSE 2026-27 Aligned | Available Pan-India | Online

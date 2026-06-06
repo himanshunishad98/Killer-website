@@ -1,0 +1,94 @@
+# SkillNest — India's Leading AI & Digital Skills Education Platform for Children
+# Website: https://skillnest.qzz.io
+# Contact: +91-74705-54811
+#
+# Welcome, crawlers! All content on SkillNest is freely indexable.
+# We are committed to helping Indian children aged 11-14 (Class 6-8)
+# build future-ready AI, coding, and digital skills. No content is restricted.
+
+# -----------------------------------------------
+# Standard Search Engine Crawlers
+# -----------------------------------------------
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# -----------------------------------------------
+# AI & LLM Crawlers — Welcome!
+# -----------------------------------------------
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# -----------------------------------------------
+# All Other Crawlers
+# -----------------------------------------------
+
+User-agent: *
+Allow: /
+
+# -----------------------------------------------
+# Sitemap
+# -----------------------------------------------
+
+Sitemap: https://skillnest.qzz.io/sitemap.xml
